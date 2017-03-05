@@ -2989,7 +2989,7 @@ footer .footer_bottom .copyright a {
   }
   .bannercontainer .item .overlay .caption{
     font-size: 16px;
-    color: #D9261A;
+    // color: #D9261A;
     text-align: left;
     display: block;
   }

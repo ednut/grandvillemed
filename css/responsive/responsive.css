@@ -21,11 +21,13 @@
   .top_bar .container .schedule {
     width: 100%;
     text-align: center;
+    display: none;
   }
   .top_bar .container .contact_info {
     width: 100%;
     margin-top: 10px;
     text-align: center;
+    display: none;
   }
   .top_bar .container .contact_info div{
     float: none;
@@ -146,7 +148,7 @@
     margin-top: 4px;
   }
   .default .navbar .navbar-header a.visible-xs {
-    background: #fe824c;
+    background: #0092DB;
     padding: 0 25px;
     color: #fff;
     line-height: 40px;
@@ -163,10 +165,18 @@
   .default .navbar .navbar-header a.navbar-brand,
   .default .navbar.navbar2 .navbar-header a.navbar-brand ,
   .default .navbar.navbar3 .navbar-header a.navbar-brand {
+    // line-height: 1;
+    // float: left;
+    // margin: 20px 18px;
+    // padding: 0;
+
     line-height: 1;
-      float: left;
-      margin: 20px 18px;
-      padding: 0;
+    float: left;
+    margin: 20px 18px;
+    padding: 0;
+    margin-top: -18px;
+    background: #fff;
+    margin-bottom: 0;
   }
   .default .navbar #main_nav {
     background: #0186d5;

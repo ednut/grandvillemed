@@ -8,7 +8,7 @@
 
         function init() {
             var mapOptions = {
-                center: new google.maps.LatLng(23.0181339,72.5680696),
+                center: new google.maps.LatLng(6.488864,3.3504203),
                 zoom: 13,
                 zoomControl: true,
                 zoomControlOptions: {
@@ -42,7 +42,7 @@
             var map = new google.maps.Map(mapElement, mapOptions);
             
             var locations = [
-                ['', 23.0181339,72.5680696]
+                ['', 6.488864,3.3504203]
             ];
             for (var i = 0; i < locations.length; i++) {
                 var marker = new google.maps.Marker({

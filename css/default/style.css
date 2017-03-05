@@ -1289,7 +1289,7 @@ button:hover {
   padding-bottom: 90px;
 }
 .recent_post_home .media {
-  padding: 30px 0;
+  padding: 15px 0;
   margin-right: 40px;
   text-align: left;
 }
@@ -1876,12 +1876,12 @@ footer {
     background: #404d5f;
 }
 footer .heading {
-  height: 64px;
+  height: 45px;
 }
 footer .heading h3 {
   font-size: 21px;
   text-transform: uppercase;
-  line-height: 64px;
+  line-height: 20px;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -2664,7 +2664,19 @@ footer .footer_bottom .copyright a {
 .contents404 .logo404 {
   text-align: right;
 }
-.contents404 .logo404 img {
+.contents404 .logo404 .wrap {
+  text-align: center;
+  width: 457px;
+  height: 457px;
+  position: relative;
+}
+.HospitalMap{
+  width: 100%;
+  height: 33em;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.contents404 .logo404 .wrap img {
   display: inline-block;
   max-width: 100%;
 }

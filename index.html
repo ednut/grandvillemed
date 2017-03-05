@@ -30,6 +30,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/lightGallery-master/src/css/lightgallery.css">
+    <link rel="stylesheet" href="vendors/lightGallery-master/src/css/lg-transitions.css">
+
     <link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.min.css">    
     <link rel="stylesheet" href="vendors/owl.carousel/css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/flexslider/flexslider.css" media="screen">
@@ -98,9 +101,9 @@
                         </li>
                         <li><a href="services.html">Services</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle">Taining</a>
+                            <a href="#" class="dropdown-toggle">Training</a>
                         </li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle">Shop</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="404.html">Acne</a></li>
@@ -123,9 +126,9 @@
                                 <li><a href="shortcode.html">Stretch Marks & Scars</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
+ -->                        <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle">blog</a>
-                        </li>
+                        </li> -->
                         <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account</a>
                         </li> -->
@@ -465,37 +468,44 @@
         </section>
     <!-- End of Medical Services -->
 
-    
+    <!-- Products -->
     <section class="row recentpost_acc contentRowPad">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6 recent_post_home">
                     <div class="row m0 titleRow text-left">
-                        <h5>recent posts</h5>
-                        <h2>from our blog</h2>
+                        <h5>Featerued</h5>
+                        <h2>Products</h2>
                     </div>
                     <div class="row m0">
                         <div class="media">
                             <div class="media-left">
-                                <a href="single-post.html"><img src="images/blog/1.jpg" alt="" class="img-reponsive"></a>
+                                <a href="single-post.html"><img style="width: 110px; background-color: #fff; border-radius: 4px;" src="images/argan-oil-360x460-2ykusg7bdscu3gny71e8lm.png" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="media-body">
-                                <a href="single-post.html"><h4>We are having new department added to us</h4></a>
-                                <div class="row m0 meta">By : <a href="#">John Doe</a> &nbsp; on : <a href="#">29th June 2015</a></div>
-                                <p>Lorem ipsum dolor sit amet, conseings ctetur adipiscing elit. </p>
+                                <a href="#"><h4>Argan Oil 100% Organic</h4></a>
+                                <div class="row m0 meta">₦15,180</div>
                             </div>
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="single-post.html"><img src="images/blog/2.jpg" alt="" class="img-reponsive"></a>
+                                <a href="single-post.html"><img style="width: 110px; background-color: #fff; border-radius: 4px;" src="images/BodyBright-360x460-2ykusjcef3ojkobqtp0mq2.png" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="media-body">
-                                <a href="single-post.html"><h4>We are having new department added to us</h4></a>
-                                <div class="row m0 meta">By : <a href="#">John Doe</a> &nbsp; on : <a href="#">29th June 2015</a></div>
-                                <p>Lorem ipsum dolor sit amet, conseings ctetur adipiscing elit. </p>
+                                <a href="#"><h4>BodyBright</h4></a>
+                                <div class="row m0 meta">₦21,505</div>
                             </div>
                         </div>
-                        <a href="blog.html" class="view_all">view all posts</a>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="single-post.html"><img style="width: 110px; background-color: #fff; border-radius: 4px;" src="images/cellulite-tone-tighten-360x460-2ykusmv1zalte185ly6znu.png" alt="" class="img-reponsive"></a>
+                            </div>
+                            <div class="media-body">
+                                <a href="#"><h4>Cellulite Tone & Tighten</h4></a>
+                                <div class="row m0 meta">₦17,710</div>
+                            </div>
+                        </div>
+                        <a href="blog.html" class="view_all">view all products</a>
                     </div>
                 </div>
                  <div class="col-sm-12 col-md-6 accordion_col">
@@ -603,7 +613,26 @@
              </div>
          </div>
     </section>
+    <!-- End of Products -->
 
+
+    <section class="row book_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-9">
+                    <div class="row m0">
+                        <h3 class="bannerTitle">ONLINE HASSLE FREE Appointment BOOKING</h3>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia, ipsum eu vulputate pulvinar,</h5>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="row m0">
+                        <a href="#" data-toggle="modal" data-target="#appointmefnt_form_pop" class="view_all">book your appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -613,44 +642,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-6 col-lg-5 footer_menuList">
-                    <div class="heading row m0"><img src="images/logo/1.png" alt=""></div>
                     <div class="row menuList">
                         <ul class="firstOrderList nav">
-                            <li class="active"><a href="#">home</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">doctors</a></li>
-                            <li><a href="#">department</a></li>
-                            <li><a href="#">pages</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">services</a></li>
+                            <li><a href="doctors.html">doctors</a></li>
                         </ul>
                         <ul class="secondOrderList nav">                                
-                            <li><a href="#">blog</a></li>
-                            <li><a href="#">contact</a></li>
-                            <li><a href="#">shop</a></li>
-                            <li><a href="#">faq</a></li>
-                            <li><a href="#">shortcodes</a></li>
+                            <li><a href="contact.html">contact</a></li>
                         </ul>
                         <ul class="thirdOrderList nav">
-                            <li><a href="#">terms &amp; condition</a></li>
-                            <li><a href="#">privacy policy</a></li>
-                            <li><a href="#">legal desclaimer</a></li>
-                            <li><a href="#">sitemap</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="gallery.html">gallery</a></li>
                         </ul>
+                        
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-6 col-lg-3 footer_address">
-                    <div class="heading row m0"></div>
                     <div class="row address m0">
                         <div class="media address_line">
                             <div class="media-left icon"><i class="fa fa-map-marker"></i></div>
-                            <div class="media-body address_text">Area  51 , Some near unknown, <br>USA 000000</div>
+                            <div class="media-body address_text">6 Oyediran Street, Off Bode Thomas, Surulere,<br> Lagos, Nigeria.</div>
                         </div>
                         <div class="media address_line">
                             <div class="media-left icon"><i class="fa fa-envelope"></i></div>
-                            <div class="media-body address_text">info@medicalprotheme.com</div>
+                            <div class="media-body address_text">info@grandvillemed.com</div>
                         </div>
                         <div class="media address_line">
                             <div class="media-left icon"><i class="fa fa-phone"></i></div>
-                            <div class="media-body address_text">123 7890 456</div>
+                            <div class="media-body address_text">0812-020-8868, 0816-454-8279</div>
                         </div>
                     </div>
                 </div>
@@ -674,7 +694,7 @@
                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                 </ul>
-                <div class="fright copyright">&copy; <a href="index.html">medicalpro 2015</a>. Made with love for great people.</div>
+                <div class="fright copyright">&copy; <a href="index.html">Copyrights <script>document.write(new Date().getFullYear())</script>: Grandville Medical & Laser</div>
             </div>
         </div>
     </footer>
@@ -686,7 +706,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <i class="fa fa-times-circle-o"></i>
                         </button>
-                        <h2 class="title">BOOK<br>NOW</h2>
+                        <h2 class="title">BOOK<br>APPOINTMENT</h2>
                         <div class="form_inputs row m0">
                             <div class="row m0 input_row">
                                 <div class="col-sm-12 col-md-12 col-lg-6 p0">
@@ -720,7 +740,7 @@
                             <input type="submit" class="form-control" value="book your appointment now">
                         </div>
                         <div class="row m0 form_footer">
-                            <a href="#"><img src="images/call-now3.png" alt="">123 7890 456</a>
+                            <a href="#"><img src="images/call-now3.png" alt="">0812-020-8868 , 0810-263-474</a>
                         </div>
                     </form>
             </div>
@@ -757,6 +777,20 @@
     <!--Strella JS-->
     <script src="js/theme.js"></script>
     <script src="js/revs.js"></script>
+
+    <!-- Lightgallery -->
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="vendors/lightGallery-master/src/js/lightgallery.js"></script>
+    <script src="vendors/lightGallery-master/lib/jquery.mousewheel.min.js"></script>
+    <script src="vendors/lightGallery-master/lib/picturefill.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.lightgallery').lightGallery({
+
+            });
+        });
+    </script>
 </body>
 
 </html>

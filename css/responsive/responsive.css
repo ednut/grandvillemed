@@ -37,6 +37,7 @@
         width: 100%;
         text-align: center;
         padding: 15px 0;
+        position: relative;
     }
     .default .navbar .navbar-header a.navbar-brand{
         margin: 0 auto;
@@ -117,8 +118,10 @@
     text-transform: uppercase;
     border: none;
     font-family: 'Lato', sans-serif;
-    // margin: 28px 18px;
-      font-size: 33px;
+    font-size: 33px;
+    position: absolute;
+    right: 0;
+    top: -13px;;
   }
   .default.home .navbar .navbar-header button, .default.home3 .navbar .navbar-header button {
     background: #0186d5;

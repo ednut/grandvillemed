@@ -123,6 +123,7 @@ button:hover {
   display: inline-block;
   width: 65%;
   margin-top: -18px;
+  padding-bottom: 10px;
 }
 .default .navbar #main_nav .nav {
   margin: 0;
@@ -2924,7 +2925,9 @@ footer .footer_bottom .copyright a {
     height: 30em;
   }
 }
-
+.bannercontainer a.wrapper{
+  display: block;
+}
 .bannercontainer .item{
   width: 100%;
   height: 100%;
@@ -2932,7 +2935,76 @@ footer .footer_bottom .copyright a {
   background-position: center;
   background-repeat: no-repeat;
   height: 10em;
+  position: relative;
 }
+.bannercontainer .item .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+  }
+  .bannercontainer .item .overlay .title{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    color: #0186d5;
+    margin-top: 40px;
+    display: none;
+  }
+  .bannercontainer .item .overlay .caption{
+    font-size: 9px;
+    color: #29166F;
+    text-align: center;
+    display: none;
+  }
+  .bannercontainer .item .overlay .BuyBtn{
+    color: #fff;
+    background: #0186D5;
+    padding: 5px 18px;
+    border-radius: 4px;
+    margin-top: 90px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 32%;
+  }
+@media (min-width:768px) {
+  .bannercontainer .item .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 80px 105px;
+
+  }
+  .bannercontainer .item .overlay .title{
+    font-weight: 600;
+    font-size: 35px;
+    text-align: left;
+    color: #0186d5;
+    margin-top: 0px;
+    display: block;
+  }
+  .bannercontainer .item .overlay .caption{
+    font-size: 16px;
+    color: #D9261A;
+    text-align: left;
+    display: block;
+  }
+  .bannercontainer .item .overlay .BuyBtn{
+    color: #fff;
+    background: #0186D5;
+    padding: 12px 50px;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0%;
+  }
+}
+
 @media (min-width:768px) {
   .bannercontainer .item{
     width: 100%;
@@ -3070,3 +3142,30 @@ footer .footer_bottom .copyright a {
 }
 .service_tab .tab-content .tab-pane .view_all{}
 /*Service Tab End*/
+
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}

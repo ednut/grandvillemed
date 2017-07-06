@@ -121,7 +121,7 @@
     font-size: 33px;
     position: absolute;
     right: 0;
-    top: -13px;;
+    // top: -13px;;
   }
   .default.home .navbar .navbar-header button, .default.home3 .navbar .navbar-header button {
     background: #0186d5;

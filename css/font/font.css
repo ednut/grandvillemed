@@ -1,0 +1,12 @@
+/*
+ ####################################
+        Supergroteska FONT
+ ####################################
+ */
+
+@font-face {
+    font-family: supergroteska;
+    src: url('supergroteska-rg.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
